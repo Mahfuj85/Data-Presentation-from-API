@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Users of API</title>
+    <style>
+        body{
+            background-color: rgba(8, 8, 8, 0.648);
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        #navbar a{
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            font-family: gilroy;
+            background-color: rgb(93, 157, 164);
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        #navbar a:hover{
+            color: black;
+            background-color: beige;
+
+        }
+        #show-users{
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .my-design{
+            border-radius: 15px;
+            margin: 30px;
+            padding: 0 40px 0;
+            background-color: antiquewhite;
+        }
+        .my-design:hover{
+            background-color: rgba(127, 255, 212, 0.427);
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./post.html">Posts</a>
+        <a href="./photos.html">Photos</a>
+        <a href="./comments.html">Comments</a>
+        <a href="./todos.html">Todos</a>
+        <a href="./albums.html">Albums</a>
+    </div>
+
+    <div id="show-users">
+       
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
